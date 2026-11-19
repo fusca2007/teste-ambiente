@@ -1,0 +1,21 @@
+# Ambiente virtual
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Ambientes e segredos
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
