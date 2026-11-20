@@ -11,3 +11,15 @@ quote-style = "double"
 [tool.pytest.ini_options]
 testpaths = ["."]
 python_files = ["test_*.py"]
+[tool.pyright]
+pythonVersion = "3.13"
+typeCheckingMode = "strict"
+include = ["."]
+exclude = [
+    ".venv",
+    "__pycache__",
+    ".pytest_cache",
+    ".ruff_cache"
+]
+reportMissingImports = true
+reportMissingTypeStubs = false
